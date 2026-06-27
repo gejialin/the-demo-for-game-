@@ -1,0 +1,4 @@
+repository "magic war@tj_famoustree@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

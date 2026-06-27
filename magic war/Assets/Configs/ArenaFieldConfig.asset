@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ae9859ca04cda54abce9211fe695d7d, type: 3}
+  m_Name: ArenaFieldConfig
+  m_EditorClassIdentifier: 
+  center: {x: 3.25, y: 0, z: -2.5}
+  initialHalfSize: 8
+  finalHalfSize: 2.5
+  floorThickness: 0.14
+  floorTileSize: 0.92
+  floorTileGap: 0.08
+  lavaPadding: 7
+  lavaSurfaceOffset: -0.02
+  lavaInnerOverlap: 0.54
+  collapseStartDelay: 20
+  collapseStepInterval: 8
+  collapseStepSize: 0.75
+  collapseFallDuration: 0.75
+  collapseFallDistance: 3.6
+  collapseTileCascadeDuration: 0.18
+  collapseTileNoiseDelay: 0.12
+  collapseTilePreDropLift: 0.08
+  collapseTilePreDropTilt: 11
+  collapseTileSideDrift: 0.16
+  collapseWarningLeadTime: 2.2
+  collapseWarningPulseSpeed: 2.4
+  collapseWarningEmission: 0.85
+  collapseWarningColor: {r: 0.95, g: 0.62, b: 0.14, a: 1}
+  collapseImpactDuration: 0.45
+  collapseImpactEmission: 1.35
+  collapseImpactColor: {r: 1, g: 0.82, b: 0.3, a: 1}
+  collapsePreviewRingThickness: 0.24
+  collapsePreviewRingHeight: 0.075
+  collapsePreviewRingEmission: 2.2
+  collapsePreviewRingColor: {r: 1, g: 0.84, b: 0.22, a: 1}
+  collapseDangerTileFlashSpeed: 4.6
+  collapseDangerTileEmission: 1.7
+  collapseDangerTileColor: {r: 1, g: 0.42, b: 0.08, a: 1}
+  collapseDangerTileJitterHeight: 0.045
+  collapseDangerTileJitterSpeed: 6.2
+  collapseDangerTileBandingStrength: 0.7
+  edgeDangerWarningDistance: 1.4
+  edgeDangerCriticalDistance: 0.45
+  edgeDangerPulseSpeed: 3.2
+  edgeDangerEmission: 1.25
+  edgeDangerColor: {r: 1, g: 0.48, b: 0.1, a: 1}
+  edgeOutsideEmission: 2.1
+  edgeOutsideColor: {r: 1, g: 0.12, b: 0.02, a: 1}
+  edgeDangerOverlayMaxAlpha: 0.16
+  edgeDangerOverlayPulseSpeed: 2.8
+  edgeOutsideOverlayAlpha: 0.32
+  edgeDangerOverlayColor: {r: 1, g: 0.28, b: 0.08, a: 1}
+  edgeOutsideOverlayColor: {r: 0.9, g: 0.08, b: 0.02, a: 1}
+  lavaOverlayAlpha: 0.28
+  lavaOverlayPulseSpeed: 4.2
+  lavaOverlayColor: {r: 1, g: 0.2, b: 0.04, a: 1}
+  burnOverlayAlpha: 0.18
+  burnOverlayPulseSpeed: 3.4
+  burnOverlayColor: {r: 1, g: 0.42, b: 0.08, a: 1}
+  contactDamagePerTick: 8
+  tickInterval: 0.35
+  applyBurn: 1
+  burnDamagePerTick: 2
+  burnTickInterval: 0.5
+  burnDuration: 2
+  lavaBlocksProjectiles: 0
+  arenaDisplayName: 黑曜塌陷场
+  preparationRuleSummary: 地板会按阶段塌陷，熔浆将填补危险区域。
+  arenaColor: {r: 0.025, g: 0.028, b: 0.032, a: 1}
+  lavaColor: {r: 1, g: 0.18, b: 0.02, a: 1}
+  boundaryColor: {r: 0.01, g: 0.01, b: 0.012, a: 1}
+  boundaryHeight: 0.45
+  boundaryThickness: 0.16
+  boundaryBlocksProjectiles: 1
+  arenaRootName: ShrinkingArenaField
+  safeFloorName: SafeFloor_Black
+  lavaRootName: LavaRing
+  boundaryRootName: ArenaBoundaryVisuals

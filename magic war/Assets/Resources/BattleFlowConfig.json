@@ -1,0 +1,16 @@
+{
+  "startCountdownDuration": 3.0,
+  "matchDuration": 75.0,
+  "timeoutHealthDifferenceThreshold": 0.05,
+  "allowDrawOnTimeout": true,
+  "countdownLabel": "战斗开始",
+  "activeLabel": "战斗中",
+  "timeUpLabel": "时间到",
+  "drawLabel": "平局",
+  "counterRules": [
+    { "playerClass": "Mage", "enemyClass": "Warlock" },
+    { "playerClass": "Warlock", "enemyClass": "Agent" },
+    { "playerClass": "Agent", "enemyClass": "Cultist" },
+    { "playerClass": "Cultist", "enemyClass": "Mage" }
+  ]
+}

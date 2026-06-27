@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fea1d4f67293a994981c6cf4617b9a3d, type: 3}
+  m_Name: CultistConfig
+  m_EditorClassIdentifier: 
+  classType: 2
+  maxHealth: 100
+  moveSpeed: 4.5
+  outgoingDamageMultiplier: 1
+  incomingDamageMultiplier: 1
+  knockbackTakenMultiplier: 1
+  knockbackPowerMultiplier: 1
+  slowResistance: 0
+  burnResistance: 0
+  primarySkill:
+    skillName: Fel Bolt
+    damageType: 3
+    damage: 22
+    windup: 0.18
+    recovery: 0.2
+    missRecovery: 0.2
+    cooldown: 0.6
+    knockbackForce: 7
+    knockbackDuration: 0.16
+    range: 16
+    radius: 0.35
+    projectileSpeed: 14
+    projectileLifetime: 3
+    slowPercent: 0.35
+    slowDuration: 1.4
+    burnDamagePerTick: 0
+    burnTickInterval: 0.5
+    burnDuration: 0
+    selfDamageOnCast: 0
+  meleeSkill:
+    skillName: Fel Rush
+    damageType: 3
+    damage: 34
+    windup: 0.3
+    recovery: 0.35
+    missRecovery: 0.35
+    cooldown: 1
+    knockbackForce: 15
+    knockbackDuration: 0.2
+    range: 2
+    radius: 1
+    projectileSpeed: 14
+    projectileLifetime: 3
+    slowPercent: 0
+    slowDuration: 0
+    burnDamagePerTick: 0
+    burnTickInterval: 0.5
+    burnDuration: 0
+    selfDamageOnCast: 8
